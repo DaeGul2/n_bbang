@@ -1,0 +1,88 @@
+/* 기본 컨테이너 스타일 */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  /* 섹션 제목 스타일 */
+  h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* 각 섹션 스타일 */
+  .section {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 4px;
+    background-color: white;
+  }
+  
+  /* 입력 필드 스타일 */
+  input {
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 22px); /* adjust input width to fit container */
+    display: block;
+  }
+  
+  /* 선택 드롭다운 스타일 */
+  select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+  }
+  
+  /* 버튼 스타일 */
+  button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* 추가 버튼 스타일 */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* 위험 버튼 스타일 */
+  .danger {
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  /* 기록 목록 스타일 */
+  .history-entry {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* 삭제 버튼 스타일 */
+  button.danger:hover {
+    background-color: #c9302c;
+  }
+  
+  
